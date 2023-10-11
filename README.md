@@ -7,15 +7,20 @@
 <img src="images/logo-event-planner-pro-with-stats.jpeg" alt="Event Planner Pro stats" style="margin: 25px auto; max-width: 830px" width="100%" height="" />
 </p>
 
-**Install to VS Code with:**  
+**How to clone and run the website locally**  
+
+**Install Git, NODE, NPM and yarn if you don't them already**  
+
+**Git clone via Terminal to a directory**  
 `git clone git@github.com:pbpyrojust/loanpro-challnege.git`
 
-##### Install with NPM 
+##### In the directory you cloned the repo to: Install with NPM 
 `npm install`
-##### Install with Yarn
+##### In the directory you cloned the repo to: Install with Yarn
 `yarn`
 
 **To start developing:**
+**Either of these commands will boot up your local sever and should give you a URL of localhost:1313**
 ##### Develop with NPM 
 `npm run start`
 ##### Develop with Yarn
