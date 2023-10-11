@@ -56,14 +56,14 @@ params:
 
   p1:
     heading: "Our mission"
-    image: "images/pages/our-mission.png"
+    image: "images/pages/our-mission.jpeg"
     content:
       - text: "Our mission is to inspire and execute exceptional events that exceed expectations, leaving lasting impressions on our clients and their guests."
       - text: "We strive to create tailored, seamless experiences by harnessing creativity, precision, and dedication to detail"
       - text: "Our commitment to excellence and client satisfaction drives us to consistently deliver unforgettable moments that mark the beginning of beautiful memories."
   p2:
     heading: "Just in time for Global Event Planning Confernece with Event Planner Pro."
-    image: "images/pages/global-event-planning-conference.jpg"
+    image: "images/pages/global-event-planning-conference.jpeg"
     content:
       - text: "The Event Planning Conference is a dynamic gathering of industry professionals, thought leaders, and aspiring event planners, dedicated to exploring the latest trends and strategies in the world of event management. This immersive event offers a rich platform for networking, knowledge sharing, and skill-building. Attendees can expect a diverse range of workshops, panel discussions, and keynote presentations covering topics such as event design, technology integration, sustainability, and client relationship management. Whether you're a seasoned event planner or just starting out in the field, this conference provides invaluable insights and opportunities for growth in the ever-evolving world of event planning."
   p3:
