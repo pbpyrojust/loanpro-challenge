@@ -1,10 +1,10 @@
 <p align="center" style="padding-top:20px">
- <img width="100px" src="images/logo-event-planner-pro.jpg" align="center" alt="Event Planner Pro logo" />
+ <img width="100px" src="images/logo-event-planner-pro.jpeg" align="center" alt="Event Planner Pro logo" />
  <h1 align="center">EventPlannerPro.net</h1>
 </p>
 
 <p align="center">
-<img src="" alt="Event Planner Pro stats" style="margin: 25px auto; max-width: 830px" width="100%" height="" />
+<img src="images/logo-event-planner-pro-with-stats.jpeg" alt="Event Planner Pro stats" style="margin: 25px auto; max-width: 830px" width="100%" height="" />
 </p>
 
 **Install to VS Code with:**  
