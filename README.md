@@ -1,7 +1,6 @@
 <p align="center" style="padding-top:20px">
  <img width="100px" src="images/logo-event-planner-pro.jpg" align="center" alt="Event Planner Pro logo" />
  <h1 align="center">EventPlannerPro.net</h1>
- <p align="center">TailBliss is an opinionated Hugo Starter with Tailwind CSS 3.2 and Alpine.js with light/dark modes.</p>
 </p>
 
 <p align="center">
@@ -35,8 +34,6 @@ Has paginated Categories and Tags. Markdown files will automatically convert ima
 
 ## Image shortcodes for webp as well.
 {{< imgc src="img-name.jpg" alt="Place alt text here." >}}
-
-<a href="https://www.buymeacoffee.com/nusserstudios" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-blue.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
 ## Form
 To use the form, visit [FormSubmit.Co](https://formsubmit.co/). Locate the contact form in "content/contact.md", and update the form action with the email address you want on this line: **action="https://formsubmit.co/your@email.com" method="POST"**
