@@ -1,5 +1,5 @@
 baseURL: ''
-title: TailBliss
+title: EventPlannerPro
 languageCode: en-us
 DefaultContentLanguage: en
 enableEmoji: true
@@ -46,7 +46,7 @@ markup:
       xhtml: false
 
 params:
-  author: Nusser Studios
+  author: EventPlannerPro
   authorimage: ../assets/images/global/author.webp
   og_image: /images/tailbliss-cover.png
   moto: "Super Fast, and Flexible"
@@ -98,16 +98,16 @@ params:
   social_media:
     github:
       enabled: true
-      url: 'https://github.com/nusserstudios'
+      url: 'https://github.com/pbpyrojust'
     facebook:
       enabled: true
-      url: 'https://facebook.com/nusserstudios'
+      url: 'https://facebook.com/salamigivesmenightmares'
     instagram:
       enabled: true
-      url: 'https://instagram.com/nusserstudios'
+      url: 'https://instagram.com/poopmonologues'
     twitter:
       enabled: true
-      url: '@nusserstudios'
+      url: '@poopmonologues'
     
 
 menu:
