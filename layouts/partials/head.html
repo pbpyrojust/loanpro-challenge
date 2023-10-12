@@ -18,13 +18,13 @@
     }
 </script>
 {{ $styles := resources.Get "/css/style.css" | postCSS }}
-{{ $sliderStyles := resources.Get "/css/slider.css" | postCSS }}
+{{ $sliderStyles := resources.Get "/css/carousel.css" | postCSS }}
 {{ if .Site.IsServer }}
 <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />
 <link rel="stylesheet" href="{{ $sliderStyles.RelPermalink }}" />
 {{ else }}
 {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
-{{ $sliderStyles := $styles | minify | fingerprint | resources.PostProcess }}
+{{ $sliderStyles := $sliderStyles | minify | fingerprint | resources.PostProcess }}
 <link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" />
 <link rel="stylesheet" href="{{ $sliderStyles.Permalink }}" integrity="{{ $sliderStyles.Data.Integrity }}" />
 {{ end }}
