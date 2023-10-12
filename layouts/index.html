@@ -233,6 +233,11 @@
         </div>
     </div>
 
+    <!-- Slider section -->
+    <div class="">
+        {{ partial "carousel.html" (dict "context" . "items" "1" "height" "50" "unit" "%" "duration" "7000") }}
+    </div>
+
     {{ if not .Site.Params.Disable_stay_uptodate}}
     <!-- CTA section -->
     <div class="relative pb-16 mt-6">
