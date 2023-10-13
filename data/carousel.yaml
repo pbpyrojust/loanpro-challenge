@@ -1,9 +1,9 @@
 images: 
-  - image: /images/image1.jpg
+  - image: /images/carousel/feature-01.jpeg
     content_html: "1"
-  - image: /images/image2.jpg
+  - image: /images/carousel/feature-02.jpeg
     content_html: "2"
-  - image: /images/image3.jpg
+  - image: /images/carousel/feature-03.jpeg
     content_html: "3"
-  - image: /images/image4.jpg
+  - image: /images/carousel/feature-04.jpeg
     content_html: "4"
