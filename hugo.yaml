@@ -11,16 +11,6 @@ darkmode_js:
   - assets/js/darkmode.js
 enableInlineShortcodes: true
 
-images: 
-  - image: /images/event-planner-pro-cover.png
-    content_html: "1"
-  - image: /images/event-planner-pro-cover.png
-    content_html: "2"
-  - image: /images/image3.jpg
-    content_html: "3"
-  - image: /images/image4.jpg
-    content_html: "4"
-
 markup:
   goldmark:
     extensions:
