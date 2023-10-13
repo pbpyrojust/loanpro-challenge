@@ -1,16 +1,16 @@
 ---
 title: Contact
-date: 2021-12-18T03:10:36.000Z
+date: 2023-10-13T03:10:36.000Z
 draft: false
 language: en
-description: A test with @tailwindcss/typography & Prose
+description: Contact form for Event Planner Pro
 ---
 
 <!-- @format -->
 
 <section class="lg:pb-24">
   <div class="max-w-screen-md px-4 mx-auto">
-      <p class="mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Got a technical issue? Want to send feedback about a beta feature? Need details about our Business plan? Let us know.</p>
+      <p class="mb-8 font-light text-center text-gray-500 lg:mb-16 dark:text-gray-400 sm:text-xl">Get in touch with our expert event planners! Whether you're dreaming of a spectacular wedding, a corporate gala, or any special occasion, our team is here to make your vision a reality. Use the form below to share your event details, and we'll get back to you with personalized ideas, quotes, and guidance to start planning your unforgettable event.</p>
       <form name="contact" action="https://formsubmit.co/your@email.com" method="POST" class="space-y-8">
           <div class="my-4">
               <label for="email" class="block mb-2 font-medium text-gray-900 text-md dark:text-gray-300"><strong>Your Email:</strong></label>
