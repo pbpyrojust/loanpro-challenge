@@ -2,7 +2,13 @@
 {{ .context.Scratch.Set "unit" .unit }}
 {{ .context.Scratch.Set "items" .items }}
 {{ $imageOne := resources.Get "images/carousel/feature-01.jpeg" }}
+{{ $imageTwo := resources.Get "images/carousel/feature-02.jpeg" }}
+{{ $imageThree := resources.Get "images/carousel/feature-03.jpeg" }}
+{{ $imageFour := resources.Get "images/carousel/feature-04.jpeg" }}
 {{ $imageOne.Publish }}
+{{ $imageTwo.Publish }}
+{{ $imageThree.Publish }}
+{{ $imageFour.Publish }}
 <div id="carousel10" class="carousel" duration="{{ .duration }}" items="{{ .items }}">
     <ul>
         {{ range $index, $slide := .context.Site.Data.carousel.images }}
