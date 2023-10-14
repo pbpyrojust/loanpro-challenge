@@ -235,6 +235,9 @@
 
     <!-- Slider section -->
     <div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
+        <h2 class="text-3xl font-black tracking-tight text-primary-500 dark:text-primary-300 sm:text-4xl text-center">
+            {{ .Site.Params.P6.Heading }}
+        </h2>
         {{ partial "carousel.html" (dict "context" . "items" "1" "height" "50" "unit" "%" "duration" "7000") }}
     </div>
 

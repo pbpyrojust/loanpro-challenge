@@ -47,8 +47,8 @@ markup:
 
 params:
   author: EventPlannerPro
-  authorimage: ../assets/images/global/author.webp
-  og_image: /images/event-planner-pro-cover.jpeg
+  authorimage: "images/global/author.webp"
+  og_image: "images/event-planner-pro-cover.jpeg"
   moto: "Turning Dreams into Events"
   description: "Event Planner Pro is a premier event planning company known for orchestrating extraordinary experiences. With a flair for creativity, a commitment to precision, and a vast network of top-notch vendors, we transform your ideas into memorable events. Whether it's a corporate gala, a wedding, or a special celebration, trust us to bring your vision to life."
   disable_theme_toggle: false
@@ -94,6 +94,8 @@ params:
     label: "Email address"
     placeholder: "Enter your email"
     button: "Notify me"
+  p6:
+    heading: "Our Featured Solutions"
 
   social_media:
     github:
