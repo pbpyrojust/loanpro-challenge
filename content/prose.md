@@ -1,6 +1,6 @@
 ---
 title: "Prose"
-date: 2023-10-13T11:10:36+08:00
+date: 2020-10-13T11:10:36+08:00
 draft: false
 language: en
 description: Tailwind Typography @tailwindcss/typography & Prose
