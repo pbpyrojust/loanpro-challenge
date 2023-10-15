@@ -25,6 +25,6 @@
 {{ else }}
 {{ $styles := $styles | minify | fingerprint | resources.PostProcess }}
 {{ $sliderStyles := $sliderStyles | minify | fingerprint | resources.PostProcess }}
-<link rel="stylesheet" href="{{ $styles.RelPermalink }}" integrity="{{ $styles.Data.Integrity }}" />
-<link rel="stylesheet" href="{{ $sliderStyles.RelPermalink }}" integrity="{{ $sliderStyles.Data.Integrity }}" />
+<link rel="stylesheet" href="{{ $styles.Permalink }}" integrity="{{ $styles.Data.Integrity }}" />
+<link rel="stylesheet" href="{{ $sliderStyles.Permalink }}" integrity="{{ $sliderStyles.Data.Integrity }}" />
 {{ end }}
