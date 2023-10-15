@@ -1,4 +1,4 @@
-baseURL: 'https://pbpyrojust.github.io/loanpro-challnege/'
+baseURL: ''
 title: EventPlannerPro
 languageCode: en-us
 DefaultContentLanguage: en
@@ -116,11 +116,11 @@ menu:
   main:
     - identifier: prose
       name: Prose
-      url: /prose/
+      url: prose/
       weight: 10
     - identifier: about
       name: About
-      url: /about/
+      url: about/
       weight: 20
     - identifier: categories
       pre: dropdown
@@ -132,16 +132,16 @@ menu:
       weight: 40
     - identifier: contact
       name: Contact
-      url: /contact/
+      url: contact/
       weight: 50
   categories:
     - identifier: prose
       name: Prose
-      url: /prose/
+      url: prose/
       weight: 10
     - identifier: about
       name: About
-      url: /about/
+      url: about/
       weight: 20
   dropdown:
     - identifier: appearance
@@ -165,23 +165,23 @@ menu:
   footer:
     - identifier: about
       name: About
-      url: /about/
+      url: about/
       weight: 10
     - identifier: blog
       name: Blog
-      url: /categories/blog/
+      url: categories/blog/
       weight: 20
     - identifier: news
       name: News
-      url: /categories/news/
+      url: categories/news/
       weight: 30
     - identifier: prose
       name: Prose
-      url: /prose/
+      url: prose/
       weight: 40
     - identifier: contact
       name: Contact
-      url: /contact/
+      url: contact/
       weight: 50
 
 markup:
