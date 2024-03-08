@@ -12,7 +12,7 @@
 **Install Git, NODE, NPM and yarn if you don't them already**  
 
 **Git clone via Terminal to a directory**  
-`git clone git@github.com:pbpyrojust/loanpro-challnege.git`
+`git clone git@github.com:pbpyrojust/.git`
 
 ##### In the directory you cloned the repo to: Install with NPM 
 `npm install`
